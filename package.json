@@ -1,0 +1,26 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "Just trying Babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umair-ali-bhutto/babel-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umair-ali-bhutto/babel-test/issues"
+  },
+  "homepage": "https://github.com/umair-ali-bhutto/babel-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3"
+  }
+}
